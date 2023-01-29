@@ -588,6 +588,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.CONNECTION_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -599,6 +612,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -609,6 +635,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
