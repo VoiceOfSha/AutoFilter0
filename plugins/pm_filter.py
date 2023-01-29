@@ -495,6 +495,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -506,6 +519,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -516,6 +542,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -526,6 +565,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣"
             text=script.AUTOFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
